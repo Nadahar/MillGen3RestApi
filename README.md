@@ -354,7 +354,7 @@ Return detailed information about the current device state and control status.
 | open_window_active_now  | string | the open widows status (see [EOpenWindowStatus](#eopenwindowstatus)) |
 | raw_ambient_temperature | float  | the temperature measured by sensor in Celsius degrees without calibration offset value |
 | set_temperature         | float  | the current set temperature in Celsius degrees               |
-| switched_on             | float  | true if the device is switched on - whether it is set to working, with heating |
+| switched_on             | bool  | true if the device is switched on - whether it is set to working, with heating |
 | connected_to_cloud      | bool   | the information whether device has connection with the cloud  |
 | operation_mode          | string | the current mode of operation (see [EOprationMode](#eoprationmode)) |
 
